@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+.details {
+  width: 28rem;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .submitButton {
+    background-color: red; 
+    color: white; 
+    font-size: 21px; 
+    font-family: sans-serif; 
+    margin: 3rem;
+    border-radius: 4px;  
+    padding: 10px 20px; 
+  }
